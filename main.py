@@ -46,7 +46,7 @@ while game_on:
         computer_cards.append(deal_card())
 
     print(f"Your hand: {user_cards}\n")
-    print(f"Computer hand: {computer_cards}\n")
+    print(f"Computer hand: [{computer_cards[0]}]\n")
 
     # sum up user's and computer's hands
     user_score = calculate_score(user_cards)
@@ -81,7 +81,6 @@ while game_on:
         computer_score = calculate_score(computer_cards)
         # print results
         print(f"Computer hand: {computer_cards}\n")
-        print(f"Computer score is {computer_score}\n")
     else:
         is_game_over = True
 
