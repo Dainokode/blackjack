@@ -54,7 +54,6 @@ while game_on:
 
     # print result
     print(f"Your score is: {user_score}\n")
-    print(f"Computer score is {computer_score}\n")
 
     is_game_over = False
     while is_game_over == False:
